@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ENGINE="/usr/local/bin/k12_engine.py"
+
+# "$@" tells Bash to take every argument you typed (like -s) 
+# and pass it directly to the Python command.
+sudo python3 "$ENGINE" "$@"
